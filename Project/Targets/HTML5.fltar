@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[Default.ScreenOnly or Default.Web], exclude[Default.PrintOnly]"
+  ShowMadCapBacklink="false"
+  MasterToc="/Project/TOCs/Online_help.fltoc"
+  MasterStylesheet="/Content/ZZ_Zasoby/WinoStylesheetModern.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <Destinations>
+    <Destination
+      Publish="true" />
+  </Destinations>
+</CatapultTarget>
