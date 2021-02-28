@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="ftp.myftpserver.com"
+  User="MyAccountId"
+  Password=""
+  Directory="C:\git\Publish"
+  Port=""
+  ViewUrl="https://tomekprus.github.io/Publish/Content/Home.htm"
+  Type="scm"
+  ProviderType="Git"
+  Database="C:\git\Publish\.git"
+  DatabaseRoot="C:\git\Publish"
+  UploadLogFile="false"
+  RemoveStale="false"
+  ChangedOnly="false"
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>
