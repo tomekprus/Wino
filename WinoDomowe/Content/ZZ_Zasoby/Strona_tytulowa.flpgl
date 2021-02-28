@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Title" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="title" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1.00in" PaddingBottom="1in">
+        <Frame Flow="body" ColumnCount="1" Anchors="Left,Right,Top,Bottom" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0in" Y="3.572917in" Right="0in" Bottom="3.875in" Width="576px" Height="149px">
+        </Frame>
+        <Frame X="268px" Y="573px" Width="315px" Height="208px" FlowIndex="1" Flow="body" Right="-7px" Bottom="83px" />
+        <Frame X="-1px" Y="-36px" Width="580px" Height="373px" Flow="decoration0" Right="-3px" Bottom="527px" BackgroundImage="../_Obrazki/winnica-vetus-119.jpg" BackgroundRepeat="stretch" />
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedBottom="0" BleedLeft="0" BleedTop="0" BleedRight="0">
+        <Frame X="-96px" Y="-69px" Width="716px" Height="91px" Flow="header" Right="-44px" Bottom="842px" />
+        <Frame X="-95px" Y="32px" Width="712px" Height="721px" Flow="body" Right="-41px" Bottom="111px" />
+        <Frame X="-95px" Y="779px" Width="714px" Height="83px" Flow="footer" Right="-43px" Bottom="2px">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p>Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

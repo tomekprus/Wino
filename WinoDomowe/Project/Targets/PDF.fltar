@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="User Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[Default.PrintOnly], exclude[Default.ScreenOnly or Default.Web]"
+  PatchHeadingLevels="true"
+  InjectEmptyPages="false"
+  MasterToc="/Project/TOCs/Opis_produktu.fltoc"
+  DisableAutoSync="true"
+  MasterStylesheet="/Content/ZZ_Zasoby/WinoStylesheetModern.css"
+  MasterPageLayout="/Content/ZZ_Zasoby/Strona_tytulowa.flpgl"
+  GetLatestBeforeCompile="true">
+  <PrintedOutput
+    CollapseMargins="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <DocumentProperties
+    Title="User Guide"
+    Author="My Name" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="50"
+    PageLayout="TwoColumnRight"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="true" />
+</CatapultTarget>
