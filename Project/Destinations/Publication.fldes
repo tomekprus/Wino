@@ -13,4 +13,7 @@
   Database="file:///C:/git/Publish/.git"
   DatabaseRoot="file:///C:/git/Publish"
   PushToRemote="true"
-  RemoteRepository="origin"></CatapultDestination>
+  RemoteRepository="origin"
+  UploadLogFile="false"
+  RemoveStale="false"
+  ChangedOnly="false"></CatapultDestination>
