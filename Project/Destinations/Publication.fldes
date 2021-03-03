@@ -12,7 +12,7 @@
   ProviderType="Git"
   Database="file:///C:/git/Publish/.git"
   DatabaseRoot="file:///C:/git/Publish"
-  PushToRemote="true"
+  PushToRemote="false"
   RemoteRepository="origin"
   UploadLogFile="false"
   RemoveStale="false"
