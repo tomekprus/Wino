@@ -143,3 +143,18 @@ h1
 	color: #006400;
 }
 
+MadCap|xref
+{
+	mc-format: '{paratext}';
+}
+
+MadCap|xref.ConceptPageNumber
+{
+	mc-format: '{paratext}';
+}
+
+MadCap|xref.IndexPageNumber
+{
+	mc-format: '{paratext} str {page}';
+}
+
